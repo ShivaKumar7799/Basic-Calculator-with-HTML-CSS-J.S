@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple Calculator</title>
+        <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="container">
+        <h1>Calculator :</h1>
+
+        <label for="number1" > First Number :</label> <br>
+        <input type="text" id = "number1" placeholder="Enter first number">  <br> <br>
+        <label for="number2" > Second Number :</label> <br>
+        <input type="text" id="number2" placeholder="Enter second number" />
+        <br><br>
+
+        <select id="operators">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+        </select>
+        <br> <br>
+
+      
+
+        <button onclick ="calc();"> = </button>
+        <input type="text" id="result" placeholder="Result" disabled />
+</div>
+        <script src="index.js" >
+
+        </script>
+</body>
+</html>
